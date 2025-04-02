@@ -1,6 +1,7 @@
 <template>
-  <div>
-  </div>
+  <test-component />
 </template>
 
-<style></style>
+<style lang="scss">
+@use '~/assets/styles/reset.scss' as *;
+</style>

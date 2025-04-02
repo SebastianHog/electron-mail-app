@@ -1,0 +1,32 @@
+@use './tokens' as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* {
+	color: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+body {
+	min-height: 100dvh;
+	background: #1f1f1f;
+	color: white;
+	overflow-x: hidden;
+  font-family: "roboto", sans-serif;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
